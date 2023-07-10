@@ -1,0 +1,22 @@
+.container {
+  border: 2px solid black;
+}
+
+.panel-heading {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
