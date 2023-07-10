@@ -17,6 +17,12 @@
       </p>
     </div>
 
+    <div class="panel-block">
+      <button (click)="generateFakeSentence()" class="button is-success m-auto">
+        Regenerate Sentence
+      </button>
+    </div>
+
     <div class="mt-4 text-center">
       <p *ngIf="compareSentences()" class="pb-5 pt-5 title">You Won!</p>
     </div>
